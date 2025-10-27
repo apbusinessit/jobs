@@ -10,7 +10,7 @@ spec:
         - name: hola-mundo
           image: busybox:latest
           command: ["/bin/sh", "-c"]
-          arg:
+          args:
           - |
             echo "hola mundo"
       restartPolicy: Never
